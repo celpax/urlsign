@@ -1,9 +1,14 @@
 {
     "name": "urlsign",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author":"rafael@celpax.com",
-    "description":"URL signature utility lib based on HMAC-SHA512 and timestamped tokens",
-    "main":"lib/urlsign.js",
+    "description":"Url Sign is an utility module to generate HMAC-SHA512 timed tokens, it is used both by Celpax API server and client modules.",
+    "main": "lib/urlsign.js",
+    "homepage": "http://www.celpax.com",
+    "repository" :
+    { "type" : "git"
+        , "url" : "https://github.com/celpax"
+    },
     "devDependencies":{
         "mocha":"*",
         "chai":"*",
