@@ -1,0 +1,12 @@
+{
+    "name": "urlsign",
+    "version": "0.0.1",
+    "author":"rafael@celpax.com",
+    "description":"URL signature utility lib based on HMAC-SHA512 and timestamped tokens",
+    "main":"lib/urlsign.js",
+    "devDependencies":{
+        "mocha":"*",
+        "chai":"*",
+        "winston":"*"
+    }
+}
